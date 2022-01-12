@@ -1,40 +1,40 @@
-import Chole from "../assets/chhola.jpg";
-import Dosa from "../assets/dosa.jpg";
-import Paneer from "../assets/paneer.jpg";
-import Idli from "../assets/idli.jpg";
-import Gujrati from "../assets/gujrati.jpeg";
-import Rajasthani from "../assets/rajasthani.jpg";
+import AbakalikiRice from "../assets/rice.jpg";
+import Ofada from "../assets/ofada.jpg";
+import Beans from "../assets/beans.jpg";
+import Semo from "../assets/semo.jpg";
+import Gari from "../assets/gari.jpg";
+import Yamflour from "../assets/elubo.jpg";
 
 export const MenuList = [
   {
-    name: "Chole Bhature",
-    image: Chole,
-    price: 250,
+    name: "Abakaliki Rice",
+    image: AbakalikiRice,
+    price: "19,500",
   },
   {
-    name: "Masala Dosa",
-    image: Dosa,
-    price: 280,
+    name: "Ofada Rice",
+    image: Ofada,
+    price: "15,800",
   },
   {
-    name: "Butter Paneer",
-    image: Paneer,
-    price: 350,
+    name: "Oloyin Bean",
+    image: Beans,
+    price: "2,000",
   },
   {
-    name: "Idli Vada",
-    image: Idli,
-    price: 230,
+    name: "Semo",
+    image: Semo,
+    price: "8,100",
   },
   {
-    name: "Gujrati Thali",
-    image: Gujrati,
-    price: 450,
+    name: "Gari Ijebu",
+    image: Gari,
+    price: "14,350",
   },
   {
-    name: "Rajasthani Thali",
-    image: Rajasthani,
-    price: 499,
+    name: "Yam Flour (Elubo)",
+    image: Yamflour,
+    price: "6,000",
   },
 ];
 

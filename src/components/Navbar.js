@@ -1,5 +1,5 @@
 import React, {useState}  from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/paneer.jpg";
 import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
 import ReorderIcon from '@material-ui/icons/Reorder';
@@ -14,7 +14,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="leftSide" id={ showLinks ? "open" : "close" }>
-        <img src={logo} alt="site logo" />
+        <img src={logo} alt="site logo" /> <span>Lukufood</span>
         <div className="hiddenLinks">
           <Link to="/">Home</Link>
           <Link to="/menu">Menu</Link>
