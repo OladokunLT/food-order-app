@@ -1,5 +1,6 @@
 .about {
   width: 100%;
+  margin: 0 auto;
   height: 90vh;
   display: flex;
   flex-direction: column;
@@ -20,16 +21,18 @@
   height: 55%;
   align-items: center;
   margin-top: 50px;
+
 }
 
 .aboutBottom p {
-  width: 1200px;
+  width: 90vw;
+  margin: 0 auto;
   text-align: justify;
 }
 
 .about .aboutBottom h1 {
   font-weight: 400;
-  font-size: 70px;
+  font-size: 60px;
   color: black;
   height: 30px;
   display: flex;

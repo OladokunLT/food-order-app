@@ -5,14 +5,13 @@ import Footer from "./components/Footer"
 import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 import Menu from "./pages/Menu";
 import About from "./pages/About";
-import Contact from "./pages/Contact"
+import Contact from "./pages/Contact";
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Navbar />
-        <Home />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/menu" element={<Menu />} />
